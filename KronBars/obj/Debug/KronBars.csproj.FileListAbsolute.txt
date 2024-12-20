@@ -1,0 +1,51 @@
+H:\УП 09.12\KronBars\KronBars\bin\Debug\KronBars.exe.config
+H:\УП 09.12\KronBars\KronBars\bin\Debug\KronBars.exe
+H:\УП 09.12\KronBars\KronBars\bin\Debug\KronBars.pdb
+H:\УП 09.12\KronBars\KronBars\obj\Debug\KronBars.csproj.AssemblyReference.cache
+H:\УП 09.12\KronBars\KronBars\obj\Debug\KronBars.Properties.Resources.resources
+H:\УП 09.12\KronBars\KronBars\obj\Debug\KronBars.csproj.GenerateResource.cache
+H:\УП 09.12\KronBars\KronBars\obj\Debug\KronBars.csproj.CoreCompileInputs.cache
+H:\УП 09.12\KronBars\KronBars\obj\Debug\KronBars.exe
+H:\УП 09.12\KronBars\KronBars\obj\Debug\KronBars.pdb
+H:\УП 09.12\KronBars\KronBars\obj\Debug\KronBars.Form1.resources
+H:\УП 09.12\KronBars\KronBars\obj\Debug\KronBars.MainForm.resources
+H:\УП 09.12\KronBars\KronBars\obj\Debug\KronBars.Profile.resources
+H:\УП 09.12\KronBars\KronBars\obj\Debug\KronBars.AddEditPlayers.resources
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\nunit.engine.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\nunit.engine.api.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\nunit.engine.core.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\testcentric.engine.metadata.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\KronBars.exe.config
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\KronBars.exe
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\KronBars.pdb
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\nunit.framework.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\nunit.framework.legacy.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.Buffers.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.Memory.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.ValueTuple.dll
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\nunit.framework.xml
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\nunit.framework.legacy.xml
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.Buffers.xml
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.Memory.xml
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Анна\Desktop\KronBars\KronBars\bin\Debug\System.ValueTuple.xml
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.csproj.AssemblyReference.cache
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.csproj.SuggestedBindingRedirects.cache
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.AddEditPlayers.resources
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.AddEditResults.resources
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.Form1.resources
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.MainForm.resources
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.Profile.resources
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.Properties.Resources.resources
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.csproj.GenerateResource.cache
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.csproj.CoreCompileInputs.cache
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.csproj.CopyComplete
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.exe
+C:\Users\Анна\Desktop\KronBars\KronBars\obj\Debug\KronBars.pdb
