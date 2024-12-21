@@ -13,15 +13,15 @@ namespace KronBars.Tests
         [TestInitialize]
         public void Setup()
         {
-            // Инициализация MainForm с тестовыми данными
-            _mainForm = new MainForm(1, 1);  // Пример с тренером (userId = 1, roleID = 1)
+            
+            _mainForm = new MainForm(1, 1);  
         } 
 
         [TestMethod]
         public void TestSetUserNameLabel_ShouldSetCorrectName_ForCoach()
         {
-            int userId = 1; // Замените на правильный ID пользователя
-            int roleId = 1; // Роль тренера
+            int userId = 1; 
+            int roleId = 1; 
             _mainForm.SetUserNamelabel();
             Assert.AreEqual(1, 1);
             Assert.AreEqual("Воронов Олег Александрович", _mainForm.GetUserNameText());
@@ -64,50 +64,42 @@ namespace KronBars.Tests
         [TestMethod]
         public void TestGetTeamIdForCoach_ShouldReturnTeamId_ForExistingCoach()
         {
-            // Arrange
-            int userId = 1; // Пример существующего тренера
+            
+            int userId = 1; 
 
-            // Act
+           
             int teamId = _mainForm.GetTeamIdForCoach(userId);
 
-            // Assert
-            Assert.AreNotEqual(-1, teamId); // Проверяем, что команда найдена
+            Assert.AreNotEqual(-1, teamId); 
         }
 
         [TestMethod]
         public void TestGetTeamIdForCoach_ShouldReturnMinusOne_ForNonExistentCoach()
         {
-            // Arrange
-            int userId = 999; // Пример несуществующего тренера
+           
+            int userId = 999; 
 
-            // Act
             int teamId = _mainForm.GetTeamIdForCoach(userId);
 
-            // Assert
-            Assert.AreEqual(-1, teamId); // Проверяем, что возвращен -1
+            Assert.AreEqual(-1, teamId); 
         }
 
         [TestMethod]
         public void TestFilterData_ShouldFilterByColumn()
         {
-            // Arrange
             string columnName = "Команда";
             string filterValue = "Кронверксие Барсы";
 
-            // Создаем DataTable с тестовыми данными
             DataTable dataTable = new DataTable();
             dataTable.Columns.Add("Команда");
             dataTable.Rows.Add("Кронверксие Барсы");
             dataTable.Rows.Add("Другие команды");
 
-            // Устанавливаем DataTable как источник данных для DataGridView
             _mainForm.dataGridView1.DataSource = dataTable;
 
-            // Act
-            _mainForm.FilterData(columnName, filterValue); // Вызываем метод фильтрации
+       
+            _mainForm.FilterData(columnName, filterValue); 
 
-            // Assert
-            // Проверяем, что таблица отфильтрована, и осталась хотя бы одна строка с нужным значением
             int expectedRowCount = dataTable.Select($"Команда LIKE '{filterValue}'").Length;
             Assert.AreEqual(expectedRowCount, _mainForm.dataGridView1.Rows.Count);
         }
@@ -137,13 +129,10 @@ namespace KronBars.Tests
         [TestMethod]
         public void TestLoadData_ShouldLoadCorrectData_ForPlayers()
         {
-            // Arrange
             string query = "SELECT Player_ID, Surname, Firstname FROM Players";
 
-            // Act
             _mainForm.LoadData(query);
 
-            // Assert
             Assert.IsTrue(_mainForm.dataGridView1.Rows.Count > 0); 
         }
 
@@ -151,20 +140,18 @@ namespace KronBars.Tests
         [TestMethod]
         public void TestAddButtonVisibility_ShouldBeVisibleForCoach_AndHiddenForPlayer()
         {
-            // Arrange
-            var coachForm = new MainForm(1, 1); // Тренер (userId = 1, roleId = 1)
-            var playerForm = new MainForm(2, 2); // Игрок (userId = 2, roleId = 2)
+            var coachForm = new MainForm(1, 1); 
+            var playerForm = new MainForm(2, 2); 
 
-            // Act
-            // Обновляем видимость кнопки для тренера и игрока
-            coachForm.SetUserNamelabel(); // Принудительно вызываем установку имени (может быть связана с обновлением UI)
-            playerForm.SetUserNamelabel(); // Для игрока также вызываем это для корректной инициализации
+            
+            coachForm.SetUserNamelabel(); 
+            playerForm.SetUserNamelabel(); 
 
-            // Проверяем видимость кнопки
+
             bool isAddButtonVisibleForCoach = coachForm.AddBtn.Visible;
             bool isAddButtonVisibleForPlayer = playerForm.AddBtn.Visible;
 
-            // Assert
+
             Assert.IsTrue(isAddButtonVisibleForCoach, "Кнопка добавления должна быть видна для тренера.");
             Assert.IsFalse(isAddButtonVisibleForPlayer, "Кнопка добавления должна быть скрыта для игрока.");
         }
